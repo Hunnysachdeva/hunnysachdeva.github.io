@@ -155,3 +155,14 @@ section[id]{scroll-margin-top:92px}
   .hero-identity{position:relative;z-index:4}
   .hero-copy{position:relative;z-index:4}
 }
+
+
+/* Final refinement — portrait stands alone; HS remains only in the header monogram. */
+.hero-identity{display:block;margin-bottom:42px}
+.hero-identity .photo-frame{display:block}
+@media(max-width:900px){.hero-identity{margin-bottom:24px}}
+@media(max-width:600px){.hero-identity{margin-bottom:24px}}
+
+/* Header branding refinement */
+.site-name{font:800 1.15rem/1 var(--sans);letter-spacing:-.045em;color:#fff;text-decoration:none;white-space:nowrap}
+@media(max-width:600px){.site-name{font-size:1rem}}
