@@ -7,7 +7,7 @@ A premium, senior-executive-style personal website for GitHub Pages.
 - `style.css` — responsive visual design
 
 ## Publish on GitHub Pages
-1. Create a new GitHub repository (for example `gazal-portfolio`).
+1. Create a new GitHub repository (for example `Hunny-portfolio`).
 2. Upload `index.html` and `style.css` to the repository root.
 3. Open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
